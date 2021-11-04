@@ -39,7 +39,7 @@ Crear una **Secuencia** para crear un **auto_increment**, que ayudara a asignar 
 --Auto_increment
 CREATE SEQUENCE emp_seq START WITH 1;
 ```
-Para que "**emp_seq**" funcione correctamente, se debe crear un **_triger_** que dispare esta secuencia cada vez que se inserte un nuevo registro.
+Para que "**emp_seq**" funcione correctamente, se debe crear un **_trigger_** que dispare esta secuencia cada vez que se inserte un nuevo registro.
 ```sql
 --Creamos un trigger para ejectura el sequence
 CREATE OR REPLACE TRIGGER emp_insert
@@ -72,6 +72,8 @@ END;
 > ```
 
 Una vez copiado los archivos segun la estructura del proyecto, iniciar **XAMPP** y correr el servicio Apache, luego dar click en el boton **Admin**, si todo esta bien el CRUD, deberia correr sin problemas.
+
+![Apache service](https://user-images.githubusercontent.com/53346419/140339185-44f04634-746c-483c-b6d2-bcd89a29cddf.png)
 
 #### Creditos
 
