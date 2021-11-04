@@ -4,7 +4,7 @@ A simple CRUD, developed in Oracle Database 10g+PHP 7.1, with XAMPP
 
 * Oracle Database 10g
 * PHP v7.1
-* XAMPP configurado para conexion a Oracle (***visitar el siguiente [blog](url) para la configuracion del XAMPP***)
+* XAMPP configurado para conexion a Oracle (***visitar el siguiente [blog](https://inf272db.blogspot.com/2021/11/crud-php-oracle-xampp.html) para la configuracion del XAMPP***)
 
 ## Estructura del proyecto
 
